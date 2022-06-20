@@ -1,6 +1,6 @@
 <?php
 
-$n = range(1,100);
+$n = range(1, 100);
 shuffle($n);
 $a = array_rand($n, 10);
 
