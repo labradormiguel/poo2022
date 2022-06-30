@@ -26,7 +26,7 @@ class PeliculaController extends ActiveController {
         ]);
     }
 
-    public function actionEstadistica($campo, $id = 0) {
+    public function actionListado($campo, $id = 0) {
         if ($id == 0) {
             $query = \app\models\Peliculas::find()->select($campo);
         } else {

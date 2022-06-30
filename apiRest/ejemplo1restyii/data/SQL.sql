@@ -1,4 +1,4 @@
-﻿DROP DATABASE IF EXISTS servidorRest;
+﻿--DROP DATABASE IF EXISTS servidorRest;
 CREATE DATABASE servidorRest;
 USE servidorRest;
 CREATE TABLE peliculas(

@@ -26,11 +26,11 @@ class CiclistaController extends ActiveController {
         ]);
     }
 
-    public function actionEstadistica($campo, $id = 0) {
-        if ($id == 0) {
+    public function actionListado($campo, $dorsal = 0) {
+        if ($dorsal == 0) {
             $query = \app\models\Ciclista::find()->select($campo);
         } else {
-            $query = \app\models\Ciclista::find()->select($campo)->where(["id" => $id]);
+            $query = \app\models\Ciclista::find()->select($campo)->where(["dorsal" => $dorsal]);
         }
 
         return new \yii\data\ActiveDataProvider([

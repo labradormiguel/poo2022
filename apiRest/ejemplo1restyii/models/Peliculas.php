@@ -43,7 +43,7 @@ class Peliculas extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'nombre' => 'Nombre',
-            'anno' => 'Anno',
+            'anno' => 'Año',
             'duracion' => 'Duracion',
             'clasificacion' => 'Clasificacion',
         ];

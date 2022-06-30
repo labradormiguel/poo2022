@@ -45,7 +45,7 @@ class Ciclista extends \yii\db\ActiveRecord
             'dorsal' => 'Dorsal',
             'nombre' => 'Nombre',
             'edad' => 'Edad',
-            'nomequipo' => 'Nomequipo',
+            'nomequipo' => 'Nombre del equipo',
         ];
     }
 }

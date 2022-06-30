@@ -5,7 +5,8 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'servidorrest',
-    'name' => 'Servidor API Rest para los cursos',
+    'name' => 'Servidor API Rest para los cursos de Alpe',
+    'language' => 'es_es',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [

@@ -36,8 +36,6 @@
         "fxp-asset": {
             "enabled": false
         },
-        "disable-tls": false,
-        "secure-http": true,
         "allow-plugins": {
             "yiisoft/yii2-composer": true
         }

@@ -21,7 +21,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'clasificacion')->dropDownList([ 'Apta para todos los públicos' => 'Apta para todos los públicos', 'No recomendada para menores de 7 años' => 'No recomendada para menores de 7 años', 'No recomendada para menores de 12 años' => 'No recomendada para menores de 12 años', 'No recomendada para menores de 18 años' => 'No recomendada para menores de 18 años', ], ['prompt' => '']) ?>
 
     <div class="form-group">
-        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Grabar', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
