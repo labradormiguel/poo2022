@@ -1,0 +1,11 @@
+.tiradas{
+    width: 50%;
+}
+#numeros,
+#dados{
+    display: inline-block;
+}
+object{
+    width: 25px;
+    height: 25px;
+}
